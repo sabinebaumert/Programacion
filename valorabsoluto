@@ -1,0 +1,23 @@
+// programa 1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{int N;
+cout<< "Ingrese numero ";
+cin>> N;
+if(N>=0)
+   {cout<< "El valor absoluto es: " <<N;
+   }
+else
+   {N=N*-1;
+   cout<< "El valor absoluto es: " <<N; 
+   }
+ getch();
+}
+
