@@ -1,0 +1,34 @@
+// salarios.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+
+void main()
+{float SB, Sa, imp, AFP; 
+cout<<"Ingrese salario bruto: ";
+cin>>SB;
+if (SB>2800)
+   {imp=SB*0.13; 
+    if (SB>4000)
+    AFP=SB*0.1271; 
+	else 
+    AFP=0;
+   }
+else
+ {imp=0;
+  AFP=0;
+ }
+cout<<"El Salario Neto es: ";
+cout<<Sa<<"\n";
+cout<<"El impuesto es: ";
+cout<<imp<<"\n";
+cout<<"La AFP`s es: ";
+cout<<AFP<<"\n";
+getch();
+
+}
