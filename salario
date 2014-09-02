@@ -23,6 +23,7 @@ else
  {imp=0;
   AFP=0;
  }
+Sa=SB-AFP-imp;
 cout<<"El Salario Neto es: ";
 cout<<Sa<<"\n";
 cout<<"El impuesto es: ";
@@ -32,3 +33,4 @@ cout<<AFP<<"\n";
 getch();
 
 }
+
