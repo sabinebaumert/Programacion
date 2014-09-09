@@ -26,13 +26,13 @@ else
   Dis=pow(b,2)-4*a*c ;
   
    if(Dis>0)
-     {x1=(-b+sqrt(Dis))*2a ;
-      x2=(-b-sqrt(Dis))*2a ;
+     {x1=(-b+sqrt(Dis))/(2*a) ;
+      x2=(-b-sqrt(Dis))/(2*a) ;
 	  cout<< "la raiz x1= "<<x1<<",x2= "<<x2<< ;
      }else
 		 if(Dis<0)
-          {x1=(-b+sqrt(Dis))*2a ;
-           x2=(-b-sqrt(Dis))*2a ;
+          {x1=(-b+sqrt(Dis))/(2*a) ;
+           x2=(-b-sqrt(Dis))/(2*a) ;
 		   cout<< "la raiz x1= "<<x1<<",x2= "<<x2<< ;
 	      }
 
