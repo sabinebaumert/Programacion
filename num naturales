@@ -13,14 +13,14 @@ void main()
   cout<< "ingrese numero";
   cin>> n;
 
-  for(i=1;i<=n;i++)
+  for(i=2;i<=n;i=i+2)
    cout<<i<<"\t";
 
-  i=1;
+  i=2;
   cout<<"\n" ;
   while(i<=n)
      {cout<<i<<"\t";
-      i++;
+      i=i+2;
      }
 getch();
 	
