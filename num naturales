@@ -15,5 +15,14 @@ void main()
 
   for(i=1;i<=n;i++)
    cout<<i<<"\t";
+
+  i=1;
+  cout<<"\n" ;
+  while(i<=n)
+     {cout<<i<<"\t";
+      i++;
+     }
 getch();
-	}
+	
+}
+
