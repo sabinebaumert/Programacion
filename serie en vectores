@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include "stdlib.h"
+#include "conio.h"
+#include "math.h"
+#include <iostream>
+#define tam 100
+
+using namespace std;
+
+
+void main()
+{int i,n,j=2,fac=2,dem;
+ float vec[tam],suma[tam];
+ 
+  cout<<"\n Ingrese el enesimo a calcular:  ";
+  cin>>n;
+
+  for(i=0;i<n;i++)
+  {dem=fac;
+   vec[i]=(powf((i+1),j)/dem);
+   fac=fac*j*(j-1);
+   j=j+2;
+   suma[i]=suma[i]+vec[i];
+   
+  }
+ 
+  cout<<"suma["<<i<<"]= "<<suma[i]<<endl;
+  
+  getch();
+}
