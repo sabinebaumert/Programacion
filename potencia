@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <conio.h>
+#include <math.h>
+#include <iostream>
+
+using namespace std;
+
+float potencia(float x,float y);
+
+void main()
+{float x,y,pot;
+int n,i;
+
+cout<<"Ingrese cuantas potencia quiere realizar: ";
+cin>>n;
+
+for(i=1;i<=n;i++)
+{cout<<"Ingrese su Base: ";
+cin>>x;
+cout<<"Ingrese su exponente: ";
+poten=potencia(x,y);
+cin>>y;
+cout<<"Su potencia es: "<<poten;
+}
+
+getch();
+
+}
+
+float potencia(float x,float y)
+{float poten;
+poten=powf(x,y);
+return poten;
+}
